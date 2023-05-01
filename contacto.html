@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="keywords" content ="html5, estudiante, proyecto html5, fotografía, css3, diseño web"/>
+    <title>FATI - fgrhanny</title>
+    <link rel ="icon" href="img/icono.ico">
+    <link rel="stylesheet" href="css/estilos1.css"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+       <header id="logonombre">
+            <h1>
+                <img src="img/logonombre.png" width="205" height="105">
+            </h1>
+        </header>
+
+          
+        <nav id="navegacionprincipal"> 
+
+            <a href="index.html">About</a>
+            <a href="https://cargocollective.com/fgrhanny">CCBlog</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contacto.html">Contact me</a> 
+
+           <div class="animation start-home"></div>
+        </nav>
+    
+        <form action="procesarPeticion.jsp" method="post">
+
+        <h3>Contact me about what services or info you may need:</h3>
+            <div id="box1">
+                <label for="nombre">Name:</label> 
+                <input type="text" id="nombre" name="nombre" placeholder="Spongebob" required>
+            </div>
+            <br>   
+
+            <div id="box2">
+                <label for="apellido">Surname:</label> 
+                <input type="text" id="apellido" name="apellido" placeholder="Squarepants">
+            </div>
+            <br>
+
+            <div id="box3">
+                <label for="mail">Your Mail:</label> 
+                <input type="text" id="mail" name="mail" placeholder="spongebob@gmail.com" required>
+            </div>
+            <br>
+
+            <div id="box4">
+                <label for="phone"> Your phone #:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+34 (333 666 999)"
+            </div>
+            <br>
+
+            <div id="box5">
+                <label for="bdate">Your birthdate:</label>
+                <input type="date" id="bdate" name="bdate">
+            </div>
+            <br>
+
+            <div id="bpx6">
+                <label for="title">Who r u?</label>
+                <br>
+                <label for="Company">Company</label>
+                <input type="radio" name="title" value="Company">
+                <label for="individual">Individual</label>
+                <input type="radio" name="title" value="Individual">
+                <label for="just asking">Just a curious little bean</label>
+                    <span style='font-size:20px;'>&#9757;</span>
+                <input type="radio" name="title" value="just asking">
+            </div>
+            <br>
+
+            <div id="box7">
+                <label for="quantity">How many final images do you need?:</label>
+                <select id="quantity" name="quantity">
+                        <option>1 to 5</option>   
+                        <option>5 to 10</option>
+                        <option>10 to 20</option>
+                        <option>20 to 50</option>
+                </select>
+            </div>
+            <br>
+
+            <div id="box8">
+                <label for="theme">What theme do you want me to photograph?:</label>
+                <select id="theme" name="theme">
+                        <option>People (fashion)</option> 
+                        <option>People (portrait)</option>    
+                        <option>Products</option>
+                </select>
+            </div>
+            <br>
+
+            <div id="box9">
+                <label for="about">Tell me more about you:</label>
+                <br>
+                <textarea id="about" name="about" rows="4" cols="50">
+                </textarea>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+        
+
+
+        <footer>
+            fgrhanny@gmail.com fgrhanny 2022&copy; 
+        </footer>
+    </body>
+</html>
+
+<!-- <div>
+            <h1>Contacto</h1>
+            <form action="procesarPeticion.jsp" method="post">
+            
+                <fieldset>
+                    <legend>Datos personales:</legend>
+                    <label for="nombre">Nombre:</label>
+                    <label for="telf">Teléfono:</label>
+                    <label for="mail">Dirección de correo electrónico:</label>
+                </fieldset>
+
+            </form>
+        </div>
+
+        <div>
+            <input type="reset">
+        </div> -->
