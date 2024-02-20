@@ -12,6 +12,10 @@ nav {
     margin-top: 10px;
     text-align: center;
 }
+.github{
+    color:blueviolet;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background: #ffffff
